@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="x-icon" href="..\assets\img\images.jpg">
+	<link rel="stylesheet" href="..\assets\fonts\css\all.css">
+	<link rel="stylesheet" type="text/css" href="..\assets\css\formmanager.css">
+	
+	<title>Sửa kết quả</title>
+</head>
+<body>
+	<div class="container" id="container">
+		<!-- HEADER -->
+			<div class="header">
+				<!-- HEADER-LEFT -->
+				<div class="header-left">
+					<a href="trangchu.html" class="logo">
+						<img src="https://c3dongda.edu.vn/themes/thpt-dong-da/assets/pic/logo_thptdongda.png">
+					</a>
+					<a href="trangchu.html" class="logo logo-small">
+						<img src="https://c3dongda.edu.vn/themes/thpt-dong-da/assets/pic/logo_thptdongda.png">
+					</a>
+				</div>
+			<!-- /HEADER-LEFT -->
+			<!-- MENU_TOGGLE -->
+				<div class="menu-toggle">
+					<div id="toggle_btn">
+						<i class="fas fa-bars"></i>
+					</div>
+				</div>
+			<!-- /MENU_TOGGLE -->
+			<!-- TOP_SEARCH -->
+				<div class="top-nav-search">
+					<form>
+						<input type="text" name="search" class="form-control" placeholder="Search here">
+						<button class="btn" type="submit">
+							<i class="fas fa-search"></i>
+						</button>
+					</form>
+				</div>
+			<!-- /TOP_SEARCH -->
+			<!-- MOBILE BUTTON -->
+				<div class="mobile_btn" id="mobile_btn">
+					<i class="fas fa-bars"></i>
+				</div>
+			<!-- /MOBILE BUTTON -->
+			<!-- ADMIN -->
+				<div class="user-menu">
+					<div class="user nav-link" id="user-menu">
+						<img src="..\assets\img\anh1.jpg"/>
+						<div class="user-text">
+							<h6>Hoàng Văn Khánh</h6>
+							<p>Admin</p>
+						</div>
+					</div>
+					<div class="drop-menu" id="drop-menu">
+						<a href="#">
+							<div class="menu">
+								<i class="fa fa-solid fa-lock"></i>
+								Đổi mật khẩu
+							</div>
+						</a>
+						<a href="login.html">
+							<div class="menu">
+								<i class="fa fa-regular fa-key"></i>
+								Đăng xuất
+							</div>
+						</a>
+					</div>
+				</div>
+				<!-- /ADMIN -->
+			</div>
+		<!-- /HEADER -->
+		<!-- PAGE_WRAPPER -->
+			<div class="wrapper">
+				<!-- SINHVIEN -->
+					<div class="content showcontent">
+						<div class="page-header">Sửa kết quả </div>
+						<div class="table-manager">
+							<div class="local-form">
+								<label>
+									Mã học sinh
+									<span class="login-danger">*</span>
+								</label>
+								<select class="input-focus">
+									<option value="hs01">HS001</option>
+									<option value="hs02">HS002</option>
+									<option value="hs03">HS003</option>
+									<option value="hs04">HS004</option>
+									<option value="hs05">HS005</option>
+									<option value="hs06">HS006</option>
+									<option value="hs07">HS007</option>
+									<option value="hs08">HS008</option>
+								</select>
+							</div>
+							<div class="local-form">
+								<label>
+									Mã môn
+									<span class="login-danger">*</span>
+								</label>
+								<select class="input-focus">
+									<option value="m01">Toan1</option>
+									<option value="m02">Toan2</option>
+									<option value="m03">Van1</option>
+									<option value="m04">SinhH</option>
+									<option value="m04">LichS</option>
+									<option value="m04">TiengA</option>
+									<option value="m04">CongN</option>
+									<option value="m04">HoaH</option>
+								</select>
+							</div>
+							<div class="local-form">
+								<label>
+									Học kì
+									<span class="login-danger">*</span>
+								</label>
+								<input type="text" placeholder="Nhập kì học" class="input-focus">
+							</div>
+							<div class="local-form">
+								<label>
+									Điểm kiểm tra miệng
+									<span class="login-danger">*</span>
+								</label>
+								<input type="text" placeholder="Nhập điểm miệng" class="input-focus">
+							</div>
+							<div class="local-form">
+								<label>
+									Điểm thi giữa kỳ
+									<span class="login-danger">*</span>
+								</label>
+								<input type="text" placeholder="Nhập điểm thi GK" class="input-focus">
+							</div>
+							<div class="local-form">
+								<label>
+									Điểm thi cuối kì
+									<span class="login-danger">*</span>
+								</label>
+								<input type="text" placeholder="Nhập điểm thi CK" class="input-focus">
+							</div>
+						</div>
+						<a href="trangchu.html">
+							<div class="add">
+								<button>Sửa</button>
+							</div>
+						</a>
+						
+					</div>
+				<!-- /SINHVIEN -->
+				<div class="footer">
+					<footer>
+						<p>Copyright © 2023 UTT</p>
+					</footer>
+				</div>
+			</div>
+		<!-- /PAGE_WRAPPER -->
+	</div>
+	<script type="text/javascript" src="..\javascript\manager.js"></script>
+</body>
+</html>

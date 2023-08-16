@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="x-icon" href="..\assets\img\images.jpg">
+	<link rel="stylesheet" href="..\assets\fonts\css\all.css">
+	<link rel="stylesheet" type="text/css" href="..\assets\css\formmanager.css">
+	
+	<title>Thêm mới lớp</title>
+</head>
+<body>
+	<div class="container" id="container">
+		<!-- HEADER -->
+			<div class="header">
+				<!-- HEADER-LEFT -->
+					<div class="header-left">
+						<a href="trangchu.html" class="logo">
+							<img src="https://c3dongda.edu.vn/themes/thpt-dong-da/assets/pic/logo_thptdongda.png">
+						</a>
+						<a href="trangchu.html" class="logo logo-small">
+							<img src="https://c3dongda.edu.vn/themes/thpt-dong-da/assets/pic/logo_thptdongda.png">
+						</a>
+					</div>
+				<!-- /HEADER-LEFT -->
+				<!-- MENU_TOGGLE -->
+					<div class="menu-toggle">
+						<div id="toggle_btn">
+							<i class="fas fa-bars"></i>
+						</div>
+					</div>
+				<!-- /MENU_TOGGLE -->
+				<!-- TOP_SEARCH -->
+					<div class="top-nav-search">
+						<form>
+							<input type="text" name="search" class="form-control" placeholder="Search here">
+							<button class="btn" type="submit">
+								<i class="fas fa-search"></i>
+							</button>
+						</form>
+					</div>
+				<!-- /TOP_SEARCH -->
+				<!-- MOBILE BUTTON -->
+					<div class="mobile_btn" id="mobile_btn">
+						<i class="fas fa-bars"></i>
+					</div>
+				<!-- /MOBILE BUTTON -->
+				<!-- ADMIN -->
+					<div class="user-menu">
+						<div class="user nav-link" id="user-menu">
+							<img src="..\assets\img\anh1.jpg"/>
+							<div class="user-text">
+								<h6>Hoàng Văn Khánh</h6>
+								<p>Admin</p>
+							</div>
+						</div>
+						<div class="drop-menu" id="drop-menu">
+							<a href="#">
+								<div class="menu">
+									<i class="fa fa-solid fa-lock"></i>
+									Đổi mật khẩu
+								</div>
+							</a>
+							<a href="login.html">
+								<div class="menu">
+									<i class="fa fa-regular fa-key"></i>
+									Đăng xuất
+								</div>
+							</a>
+						</div>
+					</div>
+				<!-- /ADMIN -->
+			</div>
+		<!-- /HEADER -->
+		<!-- PAGE_WRAPPER -->
+			<div class="wrapper">
+				<!-- SINHVIEN -->
+					<div class="content showcontent">
+						<div class="page-header">Thêm lớp </div>
+						<div class="table-manager">
+							<div class="local-form">
+								<label>
+									Mã lớp
+									<span class="login-danger">*</span>
+								</label>
+								<input type="text" placeholder="Nhập mã lớp" class="input-focus">
+							</div>
+							<div class="local-form">
+								<label>
+									Tên lớp
+									<span class="login-danger">*</span>
+								</label>
+								<input type="text" placeholder="Nhập tên lớp" class="input-focus">
+							</div>
+							<div class="local-form">
+								<label>
+									Mã GVCN
+									<span class="login-danger">*</span>
+								</label>
+								<select class="input-focus">
+									<option value="gv01">GV001</option>
+									<option value="gv02">GV002</option>
+									<option value="gv03">GV003</option>
+									<option value="gv04">GV004</option>
+									<option value="gv05">GV005</option>
+							</div>
+						</div>
+						<a href="trangchu.html">
+							<div class="add">
+								<button>Thêm mới</button>
+							</div>
+						</a>
+						
+						
+					</div>
+				<!-- /SINHVIEN -->
+				<div class="footer">
+					<footer>
+						<p>Copyright © 2023 UTT</p>
+					</footer>
+				</div>
+			</div>
+		<!-- /PAGE_WRAPPER -->
+	</div>
+	<script type="text/javascript" src="..\javascript\manager.js"></script>
+</body>
+</html>

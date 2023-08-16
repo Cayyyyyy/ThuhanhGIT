@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="x-icon" href="..\assets\img\images.jpg">
+	<link rel="stylesheet" href="..\assets\fonts\css\all.css">
+	<link rel="stylesheet" type="text/css" href="..\assets\css\formmanager.css">
+	
+	<title>Management</title>
+</head>
+<body>
+	<div class="container" id="container">
+		<!-- HEADER -->
+			<div class="header">
+				<!-- HEADER-LEFT -->
+					<div class="header-left">
+						<a href="trangchu.html" class="logo">
+							<img src="https://c3dongda.edu.vn/themes/thpt-dong-da/assets/pic/logo_thptdongda.png">
+						</a>
+						<a href="trangchu.html" class="logo logo-small">
+							<img src="https://c3dongda.edu.vn/themes/thpt-dong-da/assets/pic/logo_thptdongda.png">
+						</a>
+					</div>
+				<!-- /HEADER-LEFT -->
+				<!-- MENU_TOGGLE -->
+					<div class="menu-toggle">
+						<div id="toggle_btn">
+							<i class="fas fa-bars"></i>
+						</div>
+					</div>
+				<!-- /MENU_TOGGLE -->
+				<!-- TOP_SEARCH -->
+					<div class="top-nav-search">
+						<form>
+							<input type="text" name="search" class="form-control" placeholder="Search here">
+							<button class="btn" type="submit">
+								<i class="fas fa-search"></i>
+							</button>
+						</form>
+					</div>
+				<!-- /TOP_SEARCH -->
+				<!-- MOBILE BUTTON -->
+					<div class="mobile_btn" id="mobile_btn">
+						<i class="fas fa-bars"></i>
+					</div>
+				<!-- /MOBILE BUTTON -->
+				<!-- ADMIN -->
+					<div class="user-menu">
+						<div class="user nav-link" id="user-menu">
+							<img src="..\assets\img\anh1.jpg"/>
+							<div class="user-text">
+								<h6>Khánh Hoàng</h6>
+								<p>Admin</p>
+							</div>
+						</div>
+						<div class="drop-menu" id="drop-menu">
+							<a href="forgot.html">
+								<div class="menu">
+									<i class="fa fa-solid fa-lock"></i>
+									Đổi mật khẩu
+								</div>
+							</a>
+							<a href="login.html">
+								<div class="menu">
+									<i class="fa fa-regular fa-key"></i>
+									Đăng xuất
+								</div>
+							</a>
+						</div>
+					</div>
+				<!-- /ADMIN -->
+			</div>
+		<!-- /HEADER -->
+		<!-- SIDEBAR -->
+			<div class="sidebar">
+				<div class="slim-scrollbar">
+					<div class="sidebar-scrollbar">
+						<div class="sidebar-menu">
+							<ul>
+								<li class="menu-title">
+									<span>Main Menu</span>
+								</li>
+								<li class="submenu active">
+									<i class="fas fa-graduation-cap"></i>
+									<span>Danh sách học sinh</span>
+								</li>
+								<li class="submenu">
+									<i class="fas fa-chalkboard-teacher"></i>
+									<span>Lớp học</span>
+								</li>
+								<li class="submenu">
+									<i class="fas fa-building"></i>
+									<span>Giáo viên chủ nhiệm</span>
+								</li>
+								<li class="submenu">
+									<i class="fas fa-book-reader"></i>
+									<span>Môn học</span>
+								</li>
+								<li class="submenu">
+									<i class="fas fa-clipboard"></i>
+									<span>Thống kê điểm</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- /SIDEBAR -->
+		<!-- PAGE_WRAPPER -->
+			<div class="page-wrapper">
+				<!-- SINHVIEN -->
+					<div class="content showcontent">
+						<div class="page-header">Quản lý học sinh </div>
+						<div class="page-manager">
+							<a href="Addsv.html"><button>Thêm mới</button></a>
+							<div class="form-group">
+								<input type="text" placeholder="Nhập mã học sinh">
+								<button>Search</button>
+							</div>
+						</div>
+						<div class="table-manager">
+							<table width="100%">
+								<thead>
+									<tr>
+										<th>Mã học sinh</th>
+										<th>Họ & Tên</th>
+										<th>Mã lớp</th>
+										<th>Mã GVCN</th>
+										<th>Ngày sinh</th>
+										<th>Chức năng</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>HS001</td>
+										<td>Phạm Duy Thuận</td>
+										<td>Lop10A1</td>
+										<td>GV001</td>
+										<td>15/02/2002</td>
+										<td>
+											<a href="Editsv.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr>
+										<td>HS002</td>
+										<td>Lê Trọng Tấn</td>
+										<td>Lop10A2</td>
+										<td>GV002</td>
+										<td>06/05/2002</td>
+										<td>
+											<a href="Editsv.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr>
+										<td>HS003</td>
+										<td>Trần Ngọc Duy</td>
+										<td>Lop10A3</td>
+										<td>GV003</td>
+										<td>01/05/2002</td>
+										<td>
+											<a href="Editsv.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr>
+										<td>HS004</td>
+										<td>Phạm Thị Khánh Huyền</td>
+										<td>Lop10A4</td>
+										<td>GV004</td>
+										<td>20/10/2002</td>
+										<td>
+											<a href="Editsv.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr>
+										<td>HS005</td>
+										<td>Hoàng Văn Khánh</td>
+										<td>Lop11A1</td>
+										<td>GV001</td>
+										<td>30/10/2002</td>
+										<td>
+											<a href="Editsv.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr>
+										<td>HS006</td>
+										<td>Nguyễn Anh</td>
+										<td>Lop11A2</td>
+										<td>GV002</td>
+										<td>20/11/2002</td>
+										<td>
+											<a href="Editsv.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr>
+										<td>HS007</td>
+										<td>Nguyễn Duy</td>
+										<td>Lop12A1</td>
+										<td>GV004</td>
+										<td>19/01/2002</td>
+										<td>
+											<a href="Editsv.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr class="last">
+										<td>HS008</td>
+										<td>Tô Nhật</td>
+										<td>Lop11A3</td>
+										<td>GV003</td>
+										<td>20/10/2002</td>
+										<td>
+											<a href="Editsv.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+
+								</tbody>
+							</table>
+						</div>
+					</div>
+				<!-- /SINHVIEN -->
+				<!-- LOP -->
+					<div class="content">
+						<div class="page-header">Lớp </div>
+						<div class="page-manager">
+							<a href="Addlop.html"><button>Thêm mới</button></a>
+							<div class="form-group">
+								<input type="text" placeholder="Nhập mã lớp">
+								<button>Search</button>
+							</div>
+						</div>
+						<div class="table-manager">
+							<table width="100%">
+								<thead>
+									<tr>
+										<th>Mã lớp</th>
+										<th>Tên lớp</th>
+										<th>Mã giáo viên chủ nhiệm</th>
+										<th>Chức năng</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Lop10A1</td>
+										<td>Lớp học 10A1</td>
+										<td>GV001</td>
+										<td>
+											<a href="Editlop.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr>
+										<td>Lop10A2</td>
+										<td>Lớp học 10A2</td>
+										<td>GV002</td>
+										<td>
+											<a href="Editlop.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr>
+										<td>Lop10A3</td>
+										<td>Lớp học 10A3</td>
+										<td>GV003</td>
+										<td>
+											<a href="Editlop.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr>
+										<td>Lop10A4</td>
+										<td>Lớp học 10A4</td>
+										<td>GV004</td>
+										<td>
+											<a href="Editlop.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr>
+										<td>Lop11A1</td>
+										<td>Lớp học 11A1</td>
+										<td>GV001</td>
+										<td>
+											<a href="Editlop.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr>
+										<td>Lop11A2</td>
+										<td>Lớp học 11A2</td>
+										<td>GV002</td>
+										<td>
+											<a href="Editlop.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr>
+										<td>Lop11A3</td>
+										<td>Lớp học 11A3</td>
+										<td>GV003</td>
+										<td>
+											<a href="Editlop.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr class="last">
+										<td>Lop12A1</td>
+										<td>Lớp học 12A1</td>
+										<td>GV004</td>
+										<td>
+											<a href="Editlop.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				<!-- /LOP -->
+				<!-- KHOA -->
+					<div class="content">
+						<div class="page-header">Giáo viên chủ nhiệm </div>
+						<div class="page-manager">
+							<a href="Addkhoa.html"><button>Thêm mới</button></a>
+							<div class="form-group">
+								<input type="text" placeholder="Nhập mã lớp">
+								<button>Search</button>
+							</div>
+						</div>
+						<div class="table-manager">
+							<table width="100%">
+								<thead>
+									<tr>
+										<th>Mã giáo viên chủ nhiệm</th>
+										<th>Tên giáo viên chủ nhiệm</th>
+										<th>Chức năng</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>GV001</td>
+										<td>Nguyễn Minh Nhật</td>
+										<td>
+											<a href="Editkhoa.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr>
+										<td>GV002</td>
+										<td>Bùi Thu Thúy</td>
+										<td>
+											<a href="Editkhoa.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr>
+										<td>GV003</td>
+										<td>Vũ Hải Yến</td>
+										<td>
+											<a href="Editkhoa.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr class="last">
+										<td>GV004</td>
+										<td>Bùi Bích Phương</td>
+										<td>
+											<a href="Editkhoa.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				<!-- /KHOA -->
+				<!-- MON -->
+					<div class="content">
+						<div class="page-header">Danh sách môn học</div>
+						<div class="page-manager">
+							<a href="Addmon.html"><button>Thêm mới</button></a>
+							<div class="form-group">
+								<input type="text" placeholder="Nhập mã lớp">
+								<button>Search</button>
+							</div>
+						</div>
+						<div class="table-manager">
+							<table width="100%">
+								<thead>
+									<tr>
+										<th>Mã môn học</th>
+										<th>Tên môn học</th>
+										<th>Tên Giáo viên</th>
+										<th>Chức năng</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Toan1</td>
+										<td>Toán tập 1</td>
+										<td>Phạm Nhật Minh</td>
+										<td>
+											<a href="Editmon.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr>
+										<td>Toan2</td>
+										<td>Toán tập 2</td>
+										<td>Phạm Nhật Minh</td>
+										<td>
+											<a href="Editmon.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr>
+										<td>Van1</td>
+										<td>Ngữ văn tập 1</td>
+										<td>Vũ Hải Yến</td>
+										<td>
+											<a href="Editmon.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr class="last">
+										<td>SinhH</td>
+										<td>Sinh học</td>
+										<td>Nguyễn Chí Thiện</td>
+										<td>
+											<a href="Editmon.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				<!-- /MON -->
+				<!-- DIEM -->
+					<div class="content">
+						<div class="page-header">Kết Quả Học Tập</div>
+						<div class="page-manager">
+							<a href="Adddiem.html"><button>Thêm mới</button></a>
+							<div class="form-group">
+								<input type="text" placeholder="Nhập mã lớp">
+								<button>Search</button>
+							</div>
+						</div>
+						<div class="table-manager">
+							<table width="100%">
+								<thead>
+									<tr>
+										<th>Mã học sinh </th>
+										<th>Mã môn học</th>
+										<th>Học kỳ</th>
+										<th>Điểm kiểm tra miệng</th>
+										<th>Điểm thi giữa kỳ</th>
+										<th>Điểm thi cuối kỳ</th>
+										<th>Chức năng</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>HS001</td>
+										<td>Van1</td>
+										<td>1</td>
+										<td>9</td>
+										<td>9</td>
+										<td>9</td>
+										<td>
+											<a href="Editdiem.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr>
+										<td>HS001</td>
+										<td>Toan1</td>
+										<td>1</td>
+										<td>9</td>
+										<td>9</td>
+										<td>9</td>
+										<td>
+											<a href="Editdiem.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr>
+										<td>HS001</td>
+										<td>TiengA</td>
+										<td>1</td>
+										<td>9</td>
+										<td>9</td>
+										<td>9</td>
+										<td>
+											<a href="Editdiem.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr>
+										<td>HS001</td>
+										<td>SinhH</td>
+										<td>1</td>
+										<td>9</td>
+										<td>9</td>
+										<td>9</td>
+										<td>
+											<a href="Editdiem.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+									<tr class="last">
+										<td>HS001</td>
+										<td>LichS</td>
+										<td>1</td>
+										<td>9</td>
+										<td>9</td>
+										<td>9</td>
+										<td>
+											<a href="Editdiem.html"><button class="edit">Sửa</button></a>
+											<button class="remove">Xóa</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				<!-- /DIEM -->
+				<div class="footer">
+					<footer>
+						<p>Copyright © 2023 UTT</p>
+					</footer>
+				</div>
+			</div>
+		<!-- /PAGE_WRAPPER -->
+	</div>
+	<script type="text/javascript" src="..\javascript\manager.js"></script>
+</body>
+</html>
